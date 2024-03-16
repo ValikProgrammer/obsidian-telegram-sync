@@ -2,7 +2,8 @@ import { TFile, TFolder, Vault, normalizePath } from "obsidian";
 import { date2DateString, date2TimeString } from "./dateUtils";
 import path from "path";
 
-export const defaultDelimiter = "\n\n***\n\n";
+// EDITED: delete detelimiter, because when it is turned off, It appers when I add message with file
+export const defaultDelimiter = "" //"\n\n***\n\n";
 
 // Create a folder path if it does not exist
 export async function createFolderIfNotExist(vault: Vault, folderPath: string) {
