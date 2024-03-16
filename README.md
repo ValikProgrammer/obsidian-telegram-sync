@@ -45,7 +45,7 @@ Transfer messages and files from [Telegram](https://telegram.org/) to your [Obsi
 ### MY:
 - copy this repository
 - [npm install --save-exact --save-dev esbuild](https://esbuild.github.io/getting-started/#your-first-bundle)
-- make changes in files in necessary
+- make changes in files if necessary
 - npm run build 
 - cp main.js manifest.json styles.css "/home/vector/Documents/Obsidian Vault/.obsidian/plugins/telegram-sync" 
   - asnwer "y" on overwrite question
